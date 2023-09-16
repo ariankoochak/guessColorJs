@@ -11,7 +11,7 @@ body{
 }
 
 .colors{
-    width: 20%;
+    width: 26%;
     margin: 0 auto;
 }
 
@@ -34,4 +34,35 @@ button{
     cursor: pointer;
     display: none;
     border: none;
+}
+
+@media only screen and (max-width: 1700px){
+    .colors{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1270px){
+    .colors{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 960px){
+    .colors{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 770px){
+    .colors{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .colors{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 550px){
+    .colors{
+        width: 80%;
+    }
 }
