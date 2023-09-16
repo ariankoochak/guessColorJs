@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.color{
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
